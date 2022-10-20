@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from argparse import ArgumentParser
+from sys import exit
 parser = ArgumentParser(epilog="And that's all.")
 parser.add_argument('-t', default=1, type=int)
 parser.add_argument('--INSTALL-DEPENDENCIES', action='store_true', help='Uses pip to install dependencies')
